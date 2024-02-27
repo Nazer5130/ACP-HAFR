@@ -1,4 +1,4 @@
-First, clone the ACP-HAFR folder into your PC
+First, clone the ACP-HAFR repository into your PC
 # for ACP_HAFR_ACP344_5fold.py and ACP_HAFR_ACP344_10fold.py
 just run the file directly as it will automatically download the needed dataset
 
