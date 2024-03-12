@@ -603,7 +603,7 @@ def ACP_DL(gap1=4,gap2=4):
     print(np.mean(stats,axis=0))
     print('Std stats:')
     print(np.std(stats,axis=0))
-    
+    '''
     plot_roc_curve(all_labels, all_prob[0], 'proposed method')
     plt.plot([0, 1], [0, 1], 'k--')
     plt.xlim([-0.05, 1])
@@ -612,9 +612,9 @@ def ACP_DL(gap1=4,gap2=4):
     plt.ylabel('True Positive Rate')
     plt.title('ROC')
     plt.legend(loc="lower right")
-    plt.savefig( f'{i}' +' plot.jpg')
-    #plt.show()
+    #plt.savefig( f'{i}' +' plot.jpg')
+    plt.show()
     plt.close()
-    '''
+    
     
 ACP_DL(gap1=1,gap2=5)
